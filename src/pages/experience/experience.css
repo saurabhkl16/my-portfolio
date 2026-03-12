@@ -1,0 +1,24 @@
+.experience .top-content {
+  margin-top: 170px;
+}
+
+.experience .card-logo {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience .job-info {
+  padding: 20px;
+}
+
+.job-info .card-top-section .left h3 {
+  color: rgb(0, 28, 85);
+  margin-bottom: 5px;
+}
+
+.job-info .card-bottom-section p {
+    padding: 15px;
+    color: rgb(0, 28, 85);
+}

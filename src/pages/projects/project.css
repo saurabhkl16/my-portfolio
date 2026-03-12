@@ -1,0 +1,31 @@
+.projects {
+  margin-top: 50px;
+}
+
+.projects .top-content .right p {
+  color: rgb(0, 28, 85);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.project-grid .project-card {
+  padding: 20px;
+  background-color: rgb(166, 225, 250);
+}
+
+.project-card p {
+  padding: 5px;
+}
+
+.project-languages {
+  padding: 15px;
+}
+
+.project-languages img {
+  margin-inline: 10px;
+}

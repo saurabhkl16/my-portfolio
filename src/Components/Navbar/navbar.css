@@ -1,0 +1,29 @@
+nav {
+  background-color: rgb(0, 28, 85);
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* CSS for links */
+
+ul {
+  list-style: none;
+}
+
+a {
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+a:hover {
+    color: #0ab1cb;;
+}
+
+.active-link {
+  color: #0ab1cb;
+}
