@@ -1,0 +1,36 @@
+.contact {
+  margin-top: 50px;
+}
+
+.contact .top-content .left img {
+  border-radius: 100%;
+  border: 10px solid rgb(0, 28, 85);
+  background-color: white;
+}
+
+.download-resume-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(0, 28, 85);
+  color: white;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.download-resume-button:hover {
+  cursor: pointer;
+  background-color: rgb(18, 61, 148);;
+}
+
+.address {
+  margin-top: 100px;
+}
+
+.address .left p {
+  padding: 10px;
+}
+
+.contact-links a:hover {
+  cursor: pointer;
+  color: black;
+}

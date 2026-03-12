@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./home.css";
 
 function Home() {
@@ -7,15 +6,17 @@ function Home() {
       <div className="my-info flex">
         <div className="left flex flex-col justify-start items-center w-1/2">
           <h2 className="text-7xl font-bold">Saurabh Lomte</h2>
-          <span className="profession text-3xl">( Frontend Developer )</span>
+          <span className="profession text-3xl font-bold">
+            ( Frontend Developer )
+          </span>
           <p className="about-me text-4xl">
             Frontend Developer with 3 years of experience building scalable and
-            high-performance web applications using Angular 8 to Angular 21,
-            TypeScript, and modern JavaScript. Experienced in developing
-            reusable component architecture, dashboard systems, REST API
-            integrations, and performance optimization. Skilled in Angular
-            Signals, state management, and enterprise UI development with
-            Angular Material and Bootstrap.
+            high-performance web applications using Angular, React, TypeScript,
+            and modern JavaScript. Experienced in developing reusable component
+            architecture, dashboard systems, REST API integrations, and
+            performance optimization. Skilled in Angular Signals, state
+            management, and enterprise UI development with Angular Material and
+            Bootstrap.
           </p>
           <div className="socail-links flex items-cente">
             <a
@@ -56,8 +57,10 @@ function Home() {
           <img src="./my-work.jpg" alt="" />
         </div>
         <div className="right w-1/2">
-          <h2 className="text-5xl">Frontend Development</h2>
-          <div className="coding flex">
+          <h2 className="text-5xl text-center font-bold">
+            Frontend Development
+          </h2>
+          <div className="coding flex justify-center">
             <img className="tech-stack" src="./html-5.png" alt="html" />
             <img className="tech-stack" src="./css.png" alt="html" />
             <img className="tech-stack" src="./java-script.png" alt="html" />
@@ -65,16 +68,24 @@ function Home() {
             <img className="tech-stack" src="./angular.png" alt="html" />
           </div>
           <ul className="about-tech-stack text-2xl">
-            <li>⚡ Building responsive website front end using React-Redux</li>
             <li>
-              ⚡ Developing mobile applications using Flutter, React Native and
-              solo android apps using Kotlin{" "}
+              ⚡ Build responsive and modern user interfaces using HTML, CSS,
+              and JavaScript.
             </li>
-            <li>⚡ Creating application backend in Node, Express & Flask</li>
+            <li>
+              ⚡ Using modern frameworks / Librarry to build dynamic and
+              scalable web applications (Angular & React).
+            </li>
+            <li>
+              ⚡ Optimize performance and improve user experience across
+              devices.
+            </li>
           </ul>
         </div>
       </div>
-      <h2 className="text-center font-bold">Made with ❤️ by Saurabh Kishor Lomte</h2>
+      <h2 className="text-center font-bold">
+        Made with ❤️ by Saurabh Kishor Lomte
+      </h2>
     </div>
   );
 }

@@ -14,12 +14,12 @@ h2 {
 }
 
 .profession {
-  color: rgb(0, 28, 85);
+  /* color: rgb(0, 28, 85); */
 }
 
 .about-me {
   margin-top: 20px;
-  color: rgb(127, 141, 170);
+  color: rgb(0, 28, 85);
 }
 
 .socail-links {

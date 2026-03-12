@@ -9,7 +9,7 @@ function Navbar() {
     { name: "Education", path: "/education" },
     { name: "Experience", path: "/experience" },
     { name: "Projects", path: "/projects" },
-    { name: "Open Source", path: "/opensource" },
+    // { name: "Open Source", path: "/opensource" },
     { name: "Contact Me", path: "/contact" },
   ];
   return (

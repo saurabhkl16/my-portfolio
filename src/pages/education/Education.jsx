@@ -10,31 +10,43 @@ function Education() {
         <div className="right flex flex-col items-center justify-center w-1/2">
           <h2 className="text-6xl font-bold">Education</h2>
           <p className="text-4xl">Basic Qualification and Certifcations</p>
-          <div className="education-links flex">
-            <img
-              className="education-link"
-              src="./leet-code.png"
-              alt="leet-code-image"
-              width={70}
-            />
-            <img
-              className="education-link"
-              src="./hackerrank.png"
-              alt="hackerrank-image"
-              width={80}
-            />
-            <img
-              className="education-link"
-              src="./kaggle.png"
-              alt="kaggle-image"
-              width={110}
-            />
-            <img
-              className="education-link"
-              src="./HackerEarth.png"
-              alt="HackerEarth-image"
-              width={80}
-            />
+          <div className="education-links flex items-center">
+            <a
+              href="https://leetcode.com/u/sauarbhlom/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="education-link"
+                src="./leet-code.png"
+                alt="leet-code-image"
+                width={70}
+              />
+            </a>
+            <a
+              href="https://www.hackerrank.com/profile/saurabhlom1998"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="education-link"
+                src="./hackerrank.png"
+                alt="hackerrank-image"
+                width={80}
+              />
+            </a>
+            <a
+              href="https://www.kaggle.com/saurabhlomte"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="education-link"
+                src="./kaggle.png"
+                alt="kaggle-image"
+                width={110}
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -64,12 +76,12 @@ function Education() {
                 Algorithms, DBMS, OS, CA, AI etc.
               </li>
               <li>
-                ⚡ I have studied basic software engineering subjects like DS,
-                Algorithms, DBMS, OS, CA, AI etc.
+                ⚡ Apart from this, I have done courses on Deep Learning, Data
+                Science, Cloud Computing and Full Stack Development.
               </li>
               <li>
-                ⚡ I have studied basic software engineering subjects like DS,
-                Algorithms, DBMS, OS, CA, AI etc.
+                ⚡I was selected for Merit cum Means Scholarship which is given
+                to top 10% of students in college.
               </li>
             </ul>
           </div>
