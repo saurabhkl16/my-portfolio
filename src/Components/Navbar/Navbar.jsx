@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <nav className="flex justify-between items-center">
       <div className="logo">
-        <h1 className="text-4xl font-bold">&lt; PORTFOLIO.COM / &gt;</h1>
+        <h1 className="text-4xl font-bold">&lt; My Portfolio / &gt;</h1>
       </div>
       <div className="links">
         <ul className="flex">

@@ -10,7 +10,7 @@ function Education() {
         <div className="right flex flex-col items-center justify-center w-1/2">
           <h2 className="text-6xl font-bold">Education</h2>
           <p className="text-4xl">Basic Qualification and Certifcations</p>
-          <div className="links flex">
+          <div className="education-links flex">
             <img
               className="education-link"
               src="./leet-code.png"
