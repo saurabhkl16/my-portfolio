@@ -1,0 +1,24 @@
+nav {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+/* CSS for links */
+
+ul {
+  list-style: none;
+}
+
+a {
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+a:hover {
+    color: #2e69c6;
+}
+
+.active-link {
+  color: #2e69c6;
+}
