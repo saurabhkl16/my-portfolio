@@ -8,7 +8,7 @@ function Navbar() {
     { name: "Home", path: "/" },
     { name: "Education", path: "/education" },
     { name: "Experience", path: "/experience" },
-    { name: "Project", path: "/projects" },
+    { name: "Projects", path: "/projects" },
     { name: "Open Source", path: "/opensource" },
     { name: "Contact Me", path: "/contact" },
   ];

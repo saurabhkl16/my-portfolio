@@ -1,15 +1,15 @@
-.top-content {
+.experience .top-content {
   margin-top: 170px;
 }
 
-.card-logo {
+.experience .card-logo {
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.job-info {
+.experience .job-info {
   padding: 20px;
 }
 
