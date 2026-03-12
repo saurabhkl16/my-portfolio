@@ -13,7 +13,7 @@ function Navbar() {
     { name: "Contact Me", path: "/contact" },
   ];
   return (
-    <nav className="flex justify-between">
+    <nav className="flex justify-between items-center">
       <div className="logo">
         <h1 className="text-4xl font-bold">&lt; PORTFOLIO.COM / &gt;</h1>
       </div>

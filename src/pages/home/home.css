@@ -1,0 +1,50 @@
+.home {
+}
+
+.my-info {
+  min-height: 500px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+h2 {
+  color: rgb(0, 28, 85);
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.profession {
+  color: rgb(0, 28, 85);
+}
+
+.about-me {
+  margin-top: 20px;
+  color: rgb(127, 141, 170);
+}
+
+.socail-links {
+  margin-top: 20px;
+}
+
+.my-photo {
+}
+
+/* ###################################### */
+/* What is do css started  */
+/* ###################################### */
+
+.what-i-do-heading {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.tech-stack {
+  height: 50px;
+  margin-inline: 10px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 50px;
+}

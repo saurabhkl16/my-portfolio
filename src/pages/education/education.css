@@ -1,0 +1,48 @@
+.education {
+  margin-top: 50px;
+}
+
+.right p {
+  color: rgb(0, 28, 85);
+}
+
+.right,
+.left {
+  padding: 20px;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.education-link {
+  padding: 5px;
+  margin: 10px;
+}
+
+/* card css  */
+
+.card {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.card-heading {
+  background-color: rgba(14, 107, 168, 0.467);
+  color: rgb(0, 28, 85);
+  padding: 20px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.education-logo {
+    margin-inline: 20px;
+}
+
+.card-paragraph {
+  color: rgb(0, 28, 85);
+}
