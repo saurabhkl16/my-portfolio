@@ -1,5 +1,6 @@
-.contact {
-  margin-top: 50px;
+.contact .top-content {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .contact .top-content .left img {
@@ -19,7 +20,7 @@
 
 .download-resume-button:hover {
   cursor: pointer;
-  background-color: rgb(18, 61, 148);;
+  background-color: rgb(18, 61, 148);
 }
 
 .address {
