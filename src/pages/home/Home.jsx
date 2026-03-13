@@ -9,7 +9,7 @@ function Home() {
           <span className="profession text-3xl font-bold">
             ( Frontend Developer )
           </span>
-          <p className="about-me text-4xl">
+          <p className="about-me text-3xl">
             Frontend Developer with 3 years of experience building scalable and
             high-performance web applications using Angular, React, TypeScript,
             and modern JavaScript. Experienced in developing reusable component
@@ -24,24 +24,39 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./linked-in.png" alt="linked-in" width={50} />
+              <img
+                src="./linked-in.png"
+                alt="linked-in"
+                width={50}
+                title="Linked-In"
+              />
             </a>
             <a
               href="https://github.com/saurabhkl16"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./github.png" alt="github" width={50} />
+              <img src="./github.png" alt="github" width={50} title="Github" />
             </a>
             <a
               href="https://instagram.com/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./instagram.png" alt="instagram" width={50} />
+              <img
+                src="./instagram.png"
+                alt="instagram"
+                width={50}
+                title="Instagram"
+              />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
-              <img src="./facebook.png" alt="facebook" width={50} />
+              <img
+                src="./facebook.png"
+                alt="facebook"
+                width={50}
+                title="Facebook"
+              />
             </a>
           </div>
         </div>

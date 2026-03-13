@@ -21,38 +21,63 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./linked-in.png" alt="linked-in" width={50} />
+              <img
+                src="./linked-in.png"
+                alt="linked-in"
+                width={50}
+                title="Linked-In"
+              />
             </a>
             <a
               href="https://wa.me/919881597119"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./whatsapp.png" alt="whatsaap-logo" width={50} />
+              <img
+                src="./whatsapp.png"
+                alt="whatsaap-logo"
+                width={50}
+                title="Whatsaap"
+              />
             </a>
             <a
               href="https://github.com/saurabhkl16"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./github.png" alt="github" width={50} />
+              <img src="./github.png" alt="github" width={50} title="Github" />
             </a>
             <a
               href="https://instagram.com/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./instagram.png" alt="instagram" width={50} />
+              <img
+                src="./instagram.png"
+                alt="instagram"
+                width={50}
+                title="Instagram"
+              />
             </a>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=saurabhlom1998@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./gmail.png" alt="gmail-icon" width={50} />
+              <img
+                src="./gmail.png"
+                alt="gmail-icon"
+                width={50}
+                title="Gmail"
+              />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
-              <img src="./facebook.png" alt="facebook" width={50} />
+              <img
+                src="./facebook.png"
+                alt="facebook"
+                width={50}
+                title="Facebook"
+              />
             </a>
           </div>
           <a href="/saurabh resume.pdf" download>

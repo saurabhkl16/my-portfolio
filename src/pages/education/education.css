@@ -1,5 +1,9 @@
-.education {
-  margin-top: 13rem;
+.education .top-content {
+  margin-top: 150px;
+}
+
+.eduaction-chart {
+  margin-top: 180px;
 }
 
 .right p {

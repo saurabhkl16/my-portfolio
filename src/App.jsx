@@ -1,7 +1,7 @@
 import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Suspense, lazy } from "react";
-import Spinner from "./Components/spinner/spinner.jsx";
+import Spinner from "./Components/spinner/Spinner.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 
 const Home = lazy(() => import("./pages/home/Home.jsx"));

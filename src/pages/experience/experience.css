@@ -1,5 +1,6 @@
 .experience .top-content {
-  margin-top: 170px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .experience .card-logo {
@@ -19,6 +20,6 @@
 }
 
 .job-info .card-bottom-section p {
-    padding: 15px;
-    color: rgb(0, 28, 85);
+  padding: 15px;
+  color: rgb(0, 28, 85);
 }
