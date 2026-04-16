@@ -8,7 +8,7 @@ function Projects() {
           <img src="./projects.png" alt="project-img" width={700} />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
-          <h2 className="text-6xl font-bold">Projects</h2>
+          <h2 className="text-5xl font-bold">Projects</h2>
           <br />
           <p className="text-2xl">
             My projects makes use of vast variety of latest technology tools. My

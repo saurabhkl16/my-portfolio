@@ -5,11 +5,11 @@ function Home() {
     <div className="home">
       <div className="my-info flex">
         <div className="left flex flex-col justify-start items-center w-1/2">
-          <h2 className="text-7xl font-bold">Saurabh Lomte</h2>
+          <h2 className="text-5xl font-bold">Saurabh Lomte</h2>
           <span className="profession text-3xl font-bold">
             ( Frontend Developer )
           </span>
-          <p className="about-me text-3xl">
+          <p className="about-me text-2xl">
             Frontend Developer with 3 years of experience building scalable and
             high-performance web applications using Angular, React, TypeScript,
             and modern JavaScript. Experienced in developing reusable component

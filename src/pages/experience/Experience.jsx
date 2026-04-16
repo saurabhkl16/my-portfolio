@@ -8,7 +8,7 @@ function Experience() {
           <img src="./Experience.png" alt="experience" width={800} />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
-          <h2 className="text-6xl font-bold">Experience</h2>
+          <h2 className="text-5xl font-bold">Experience</h2>
           <p className="text-4xl">Work, Internship and Volunteership</p>
           <br />
           <p className="text-2xl">
