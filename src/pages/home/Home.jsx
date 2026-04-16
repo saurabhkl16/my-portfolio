@@ -7,7 +7,7 @@ function Home() {
         <div className="left flex flex-col justify-start items-center w-1/2">
           <h2 className="text-5xl font-bold">Saurabh Lomte</h2>
           <span className="profession text-3xl font-bold">
-            ( Frontend Developer )
+            ( Full-Stack Developer )
           </span>
           <p className="about-me text-2xl">
             Frontend Developer with 3 years of experience building scalable and

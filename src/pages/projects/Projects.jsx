@@ -1,6 +1,27 @@
 import "./project.css";
 
 function Projects() {
+  const projects = [
+    {
+      title: "Employee Management",
+      desc: "Built using HTML, CSS, and JavaScript.",
+      date: "Jan 2026",
+      tech: ["/html-5.png", "/css.png", "/java-script.png"],
+    },
+    {
+      title: "My Portfolio",
+      desc: "Developed using React to create a Single Page Application (SPA).",
+      date: "Feb 2026",
+      tech: ["/html-5.png", "/css.png", "/java-script.png", "/react.png"],
+    },
+    {
+      title: "Food Delivery App",
+      desc: "Allows users to browse restaurants, place orders, and track deliveries in real time.",
+      date: "March 2026",
+      tech: ["/angular.png", "/java.png", "/mysql.png"],
+    },
+  ];
+
   return (
     <div className="projects">
       <div className="top-content flex">
@@ -18,79 +39,19 @@ function Projects() {
         </div>
       </div>
       <div className="project-grid">
-        <div className="project-card">
-          <h2 className="text-3xl font-bold">My Portfolio</h2>
-          <p className="text-2xl">
-            Developed this project using React to create SPA Application.
-          </p>
-          <p className="text-2xl text-red-500">Created on feb 2026</p>
-          <div className="project-languages flex justify-center">
-            <img src="./html-5.png" alt="html" width={50} />
-            <img src="./css.png" alt="css" width={50} />
-            <img src="./java-script.png" alt="javascript" width={50} />
-            <img src="./react.png" alt="react-png" width={50} />
+        {projects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <h2 className="text-3xl font-bold">{project.title}</h2>
+            <p className="text-2xl">{project.desc}</p>
+            <p className="text-2xl text-red-500">{project.date}</p>
+
+            <div className="project-languages flex justify-center gap-2">
+              {project.tech.map((img, i) => (
+                <img key={i} src={img} alt="tech" width={50} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="project-card">
-          <h2 className="text-3xl font-bold">Employee Managment</h2>
-          <p className="text-2xl">
-            Developed this project using only HTML, CSS and JavaScript only.
-          </p>
-          <p className="text-2xl text-red-500">Created on Jan 2026</p>
-          <div className="project-languages flex justify-center">
-            <img src="./html-5.png" alt="html" width={50} />
-            <img src="./css.png" alt="css" width={50} />
-            <img src="./java-script.png" alt="javascript" width={50} />
-          </div>
-        </div>
-        <div className="project-card">
-          <h2 className="text-3xl font-bold">------</h2>
-          <p className="text-2xl">
-            Lorem ipsum dolor sit amet. khhfss sfhushf sdfhsdf sfh.
-          </p>
-          <p className="text-2xl text-red-500">------</p>
-          <div className="project-languages flex justify-center"> 
-            <img src="./html-5.png" alt="html" width={50} />
-            <img src="./css.png" alt="css" width={50} />
-            <img src="./java-script.png" alt="javascript" width={50} />
-          </div>
-        </div>
-        <div className="project-card">
-          <h2 className="text-3xl font-bold">------</h2>
-          <p className="text-2xl">
-            Lorem ipsum dolor sit amet. khhfss sfhushf sdfhsdf sfh.
-          </p>
-          <p className="text-2xl">------</p>
-          <div className="project-languages flex justify-center">
-            <img src="./html-5.png" alt="html" width={50} />
-            <img src="./css.png" alt="css" width={50} />
-            <img src="./java-script.png" alt="javascript" width={50} />
-          </div>
-        </div>
-        <div className="project-card">
-          <h2 className="text-3xl font-bold">------</h2>
-          <p className="text-2xl">
-            Lorem ipsum dolor sit amet. khhfss sfhushf sdfhsdf sfh.
-          </p>
-          <p className="text-2xl">------</p>
-          <div className="project-languages flex justify-center">
-            <img src="./html-5.png" alt="html" width={50} />
-            <img src="./css.png" alt="css" width={50} />
-            <img src="./java-script.png" alt="javascript" width={50} />
-          </div>
-        </div>
-        <div className="project-card">
-          <h2 className="text-3xl font-bold">------</h2>
-          <p className="text-2xl">
-            Lorem ipsum dolor sit amet. khhfss sfhushf sdfhsdf sfh.
-          </p>
-          <p className="text-2xl">------</p>
-          <div className="project-languages flex justify-center">
-            <img src="./html-5.png" alt="html" width={50} />
-            <img src="./css.png" alt="css" width={50} />
-            <img src="./java-script.png" alt="javascript" width={50} />
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
