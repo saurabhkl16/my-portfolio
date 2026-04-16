@@ -1,5 +1,8 @@
-.projects .top-content {
-  margin-top: 50px;
+.projects {
+  margin-bottom: 10px;
+  .top-content {
+    margin-top: 10px;
+  }
 }
 
 .projects .top-content .right p {
@@ -15,7 +18,13 @@
 
 .project-grid .project-card {
   padding: 20px;
-  background-color: rgb(166, 225, 250);
+  background-color: rgb(0, 28, 85);
+  color: white;
+  border-radius: 6px;
+
+  h2 {
+    color: #0ab1cb;
+  }
 }
 
 .project-card p {

@@ -5,10 +5,10 @@ function Contact() {
     <div className="contact">
       <div className="top-content flex">
         <div className="left w-1/2">
-          <img src="./contact-me.png" alt="project-img" width={600} />
+          <img src="./contact-me.png" alt="project-img" width={450} />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
-          <h2 className="text-6xl font-bold">Contact Me</h2>
+          <h2 className="text-5xl font-bold">Contact Me</h2>
           <br />
           <p className="text-2xl">
             I am available on almost every social media. You can message me, I
@@ -89,7 +89,7 @@ function Contact() {
       </div>
       <div className="address flex">
         <div className="left flex flex-col items-center justify-center w-1/2">
-          <h2 className="text-6xl font-bold">My Address</h2>
+          <h2 className="text-5xl font-bold">My Address</h2>
           <br />
           <p className="text-2xl font-bold">
             At Post Barad, TQ Mudkhed, Dist Nanded
@@ -100,8 +100,8 @@ function Contact() {
             See My Location
           </button>
         </div>
-        <div className="right w-1/2">
-          <img src="./map.png" alt="map-img" width={600} />
+        <div className="right flex justify-center w-1/2">
+          <img src="./map.png" alt="map-img" width={400} />
         </div>
       </div>
       <h2 className="text-center font-bold">

@@ -8,7 +8,7 @@ function Education() {
           <img src="./education.png" alt="education" width={800} />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
-          <h2 className="text-6xl font-bold">Education</h2>
+          <h2 className="text-5xl font-bold">Education</h2>
           <p className="text-4xl">Basic Qualification and Certifcations</p>
           <div className="education-links flex items-center">
             <a
