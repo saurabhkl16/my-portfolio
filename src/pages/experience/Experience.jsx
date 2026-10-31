@@ -22,6 +22,36 @@ function Experience() {
           <div className="card-logo w-1/8">
             <img
               className="company-logo"
+              src="./Airtribe_logo.jpg"
+              alt="company-logo"
+              width={150}
+            />
+          </div>
+          <div className="job-info w-7/8">
+            <div className="card-top-section flex justify-between">
+              <div className="left">
+                <h3 className="text-3xl font-bold">AI First Software Engineering Corse</h3>
+                <p className="text-2xl">Airtribe</p>
+              </div>
+              <div className="right">
+                <p className="font-bold">Feb 2026 - Current</p>
+                <p>Online</p>
+              </div>
+            </div>
+            <div className="card-bottom-section">
+              <p className="text-2xl">
+                I worked as a front-end developer for more than one year with the loan
+                management system team. I am looking for a front-end or
+                full-stack developer role. I have experience with the angular
+                framework, Javascript, Typescript, Java, and Bootstrap.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="card flex">
+          <div className="card-logo w-1/8">
+            <img
+              className="company-logo"
               src="./husys-logo.png"
               alt="company-logo"
               width={150}
@@ -40,7 +70,7 @@ function Experience() {
             </div>
             <div className="card-bottom-section">
               <p className="text-2xl">
-                I worked as a front-end developer for one year with the loan
+                I worked as a front-end developer for more than one year with the loan
                 management system team. I am looking for a front-end or
                 full-stack developer role. I have experience with the angular
                 framework, Javascript, Typescript, Java, and Bootstrap.
