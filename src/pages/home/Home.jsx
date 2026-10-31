@@ -7,10 +7,10 @@ function Home() {
         <div className="left flex flex-col justify-start items-center w-1/2">
           <h2 className="text-5xl font-bold">Saurabh Lomte</h2>
           <span className="profession text-3xl font-bold">
-            ( Full-Stack Developer )
+            ( Java Full-Stack Developer )
           </span>
           <p className="about-me text-2xl">
-            Frontend Developer with 3 years of experience building scalable and
+            Software Developer with 3 years of experience building scalable and
             high-performance web applications using Angular, React, TypeScript,
             and modern JavaScript. Experienced in developing reusable component
             architecture, dashboard systems, REST API integrations, and
