@@ -98,6 +98,35 @@ function Home() {
           </ul>
         </div>
       </div>
+      <div className="what-i-do flex">
+        <div className="right w-1/2">
+          <h2 className="text-5xl text-center font-bold">
+            Backend Development
+          </h2>
+          <div className="coding flex justify-center">
+            <img className="tech-stack" src="./java.png" alt="html" />
+            <img className="tech-stack" src="./mysql.png" alt="html" />
+            <img className="tech-stack" src="./springboot.png" alt="html" />
+          </div>
+          <ul className="about-tech-stack text-2xl">
+            <li>
+              ⚡ Design and implement secure, RESTful APIs using Java, Spring
+              Boot, and Spring Web.
+            </li>
+            <li>
+              ⚡ Build scalable endpoints with secure authentication, request
+              validation, and optimized JSON data handling.
+            </li>
+            <li>
+              ⚡ Integrate seamless CRUD operations with MySQL databases using
+              Hibernate / Spring Data JPA.
+            </li>
+          </ul>
+        </div>
+        <div className="flex justify-center w-1/2">
+          <img src="./backend_tech.png" alt="" />
+        </div>
+      </div>
       <h2 className="text-center font-bold">
         Made with ❤️ by Saurabh Kishor Lomte
       </h2>
