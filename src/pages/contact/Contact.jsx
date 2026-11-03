@@ -80,7 +80,7 @@ function Contact() {
               />
             </a>
           </div>
-          <a href="/saurabh resume.pdf" download>
+          <a href="/saurabh full-stack.pdf" target="_blank">
             <button className="download-resume-button text-3xl">
               See My Resume
             </button>

@@ -30,7 +30,9 @@ function Experience() {
           <div className="job-info w-7/8">
             <div className="card-top-section flex justify-between">
               <div className="left">
-                <h3 className="text-3xl font-bold">AI First Software Engineering Corse</h3>
+                <h3 className="text-3xl font-bold">
+                  AI First Software Engineering Corse
+                </h3>
                 <p className="text-2xl">Airtribe</p>
               </div>
               <div className="right">
@@ -40,10 +42,26 @@ function Experience() {
             </div>
             <div className="card-bottom-section">
               <p className="text-2xl">
-                I worked as a front-end developer for more than one year with the loan
-                management system team. I am looking for a front-end or
-                full-stack developer role. I have experience with the angular
-                framework, Javascript, Typescript, Java, and Bootstrap.
+                <ul>
+                  <li>
+                    Started an intensive software engineering program focused on
+                    Data Structures & Algorithms, System Design, and Full-Stack
+                    Development with AI.
+                  </li>
+                  <li>
+                    Built end-to-end web applications using Angular, Java,
+                    MySQL, and Spring Boot, following industry best practices.
+                  </li>
+                  <li>
+                    Solved algorithmic problems covering arrays, linked lists,
+                    stacks, queues, graphs, dynamic programming, and greedy
+                    techniques.
+                  </li>
+                  <li>
+                    Developed RESTful APIs and implemented authentication,
+                    authorization, and secure backend architecture.
+                  </li>
+                </ul>
               </p>
             </div>
           </div>
@@ -70,8 +88,8 @@ function Experience() {
             </div>
             <div className="card-bottom-section">
               <p className="text-2xl">
-                I worked as a front-end developer for more than one year with the loan
-                management system team. I am looking for a front-end or
+                I worked as a front-end developer for more than one year with
+                the loan management system team. I am looking for a front-end or
                 full-stack developer role. I have experience with the angular
                 framework, Javascript, Typescript, Java, and Bootstrap.
               </p>
