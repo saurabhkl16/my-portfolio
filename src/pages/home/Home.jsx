@@ -124,7 +124,7 @@ function Home() {
           </ul>
         </div>
         <div className="flex justify-center w-1/2">
-          <img src="./backend_tech.png" alt="" />
+          <img src="./backend_tech.png" alt="backend tech"/>
         </div>
       </div>
       <h2 className="text-center font-bold">
