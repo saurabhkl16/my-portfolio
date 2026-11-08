@@ -61,7 +61,13 @@ function Home() {
           </div>
         </div>
         <div className="right w-1/2">
-          <img src="./my-photo.png" alt="my-photo" className="my-photo" />
+          <img
+            src="./my-photo.png"
+            alt="my-photo"
+            className="my-photo"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
       <h2 className="what-i-do-heading text-6xl font-bold text-center">

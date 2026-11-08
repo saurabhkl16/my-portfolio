@@ -5,7 +5,13 @@ function Contact() {
     <div className="contact">
       <div className="top-content flex">
         <div className="left w-1/2">
-          <img src="./contact-me.png" alt="project-img" width={450} />
+          <img
+            src="./contact-me.avif"
+            alt="project-img"
+            width={450}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
           <h2 className="text-5xl font-bold">Contact Me</h2>
