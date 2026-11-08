@@ -10,13 +10,13 @@ function Home() {
             ( Java Full-Stack Developer )
           </span>
           <p className="about-me text-2xl">
-            Software Developer with 3 years of experience building scalable and
-            high-performance web applications using Angular, React, TypeScript,
-            and modern JavaScript. Experienced in developing reusable component
-            architecture, dashboard systems, REST API integrations, and
-            performance optimization. Skilled in Angular Signals, state
-            management, and enterprise UI development with Angular Material and
-            Bootstrap.
+            Software Developer with 3+ years of experience in developing
+            scalable and high-performance full-stack web applications using
+            Java, Spring Boot, SQL, Angular, TypeScript, and JavaScript.
+            Experienced in building RESTful APIs, implementing backend business
+            logic, database integration, and developing responsive user
+            interfaces. Skilled in Spring Boot, Hibernate/JPA, MySQL, Angular
+            and reusable component architecture.
           </p>
           <div className="socail-links flex items-cente">
             <a
@@ -124,7 +124,7 @@ function Home() {
           </ul>
         </div>
         <div className="flex justify-center w-1/2">
-          <img src="./backend_tech.png" alt="backend tech"/>
+          <img src="./backend_tech.png" alt="backend tech" />
         </div>
       </div>
       <h2 className="text-center font-bold">

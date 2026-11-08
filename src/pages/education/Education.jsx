@@ -102,18 +102,8 @@ function Education() {
               width={170}
             />
             <ul className="card-paragraph text-2xl">
-              <li>
-                ⚡ I have studied basic software engineering subjects like DS,
-                Algorithms, DBMS, OS, CA, AI etc.
-              </li>
-              <li>
-                ⚡ I have studied basic software engineering subjects like DS,
-                Algorithms, DBMS, OS, CA, AI etc.
-              </li>
-              <li>
-                ⚡ I have studied basic software engineering subjects like DS,
-                Algorithms, DBMS, OS, CA, AI etc.
-              </li>
+              <li>⚡ I have studied subjects Maths,Physcis and Chemistry.</li>
+              <li>⚡ Also i have studied basic coding knowledge.</li>
             </ul>
           </div>
         </div>
