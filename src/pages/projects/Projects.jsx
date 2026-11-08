@@ -26,7 +26,7 @@ function Projects() {
     <div className="projects">
       <div className="top-content flex">
         <div className="left w-1/2">
-          <img src="./projects.png" alt="project-img" width={700} />
+          <img src="./projects.avif" alt="project-img" width={700} />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
           <h2 className="text-5xl font-bold">Projects</h2>
