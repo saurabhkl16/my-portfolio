@@ -5,7 +5,13 @@ function Education() {
     <div className="education">
       <div className="top-content flex">
         <div className="left w-1/2">
-          <img src="./education.avif" alt="education" width={800} />
+          <img
+            src="./education.avif"
+            alt="education"
+            width={800}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
           <h2 className="text-5xl font-bold">Education</h2>

@@ -5,7 +5,13 @@ function Experience() {
     <div className="experience">
       <div className="top-content flex">
         <div className="left w-1/2">
-          <img src="./Experience.avif" alt="experience" width={800} />
+          <img
+            src="./Experience.avif"
+            alt="experience"
+            width={800}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div className="right flex flex-col items-center justify-center w-1/2">
           <h2 className="text-5xl font-bold">Experience</h2>
